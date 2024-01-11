@@ -48,7 +48,7 @@ header{
  }
 
  .navbar .logo a {
-   font-size: 2.5rem;
+   font-size: 2.4rem;
    font-weight: bold;
    color: rgb(251, 251, 249);
    text-shadow: 1px 1px 2px #000;
@@ -62,7 +62,7 @@ header{
 
  .navbar .toggle_btn {
     color: #6a6f80;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     cursor: pointer;
     display: none;
  }
@@ -144,7 +144,7 @@ header{
  }
 
  #hero h1 {
-    font-size: 4rem;
+    font-size: 2.6rem;
     margin-bottom: 1rem;
     color:rgb(172, 244, 244);
     text-shadow: 1px 1px 2px #000;
