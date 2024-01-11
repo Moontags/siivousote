@@ -6,11 +6,11 @@
 }
 
 body {
-    height: 100vh;
+    width: 100%;
+    height: auto ;
     background-color: #000;
-    background-image: url('kuvat/water-1761027_640 copy.jpg');
+    background-image: url('kuvat/alpine-8473831_640.webp');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color:rgb(146, 171, 72);
+   color: rgb(43, 44, 43);
 }
 
 /* Header */
@@ -41,7 +41,7 @@ header{
     height: 60px;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@ header{
  .navbar .logo a {
    font-size: 2.5rem;
    font-weight: bold;
-   color: rgb(211, 213, 238);
+   color: rgb(251, 251, 249);
    text-shadow: 1px 1px 2px #000;
  }
 
@@ -70,13 +70,14 @@ header{
  p {
    font-size: 1.5rem;
    color:rgb(172, 244, 244);
+   text-shadow: 1px 1px 2px #000;
    display: flex;
    justify-content: center;
     
  }
 
  .action_btn {
-    background-color: green;
+    background-color: rgb(218, 226, 248);
     color: #000;
     padding: 0.5rem 1rem;
     border: none;
@@ -90,7 +91,8 @@ header{
 
  .action_btn:hover {
     scale: 1.05;
-    color: #fff;
+    color: rgb(150, 242, 250);
+    text-shadow: 1px 1px 2px #000;
  }
 
  .action_btn:active {
@@ -145,8 +147,11 @@ header{
     font-size: 4rem;
     margin-bottom: 1rem;
     color:rgb(172, 244, 244);
+    text-shadow: 1px 1px 2px #000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     
 
  }
