@@ -159,6 +159,71 @@ header{
     
 
  }
+
+ /* Footer */
+
+ .footer {
+   padding: 40px 0;
+   background-color: #fff;
+   opacity: 0.8;
+ }
+
+ .footer .social {
+   text-align: center;
+   padding-bottom: 25px;
+ }
+
+ .footer .social a {
+   font-size: 24px;
+   color: inherit; 
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   display: inline-block;
+   text-align: center;
+   margin: 0 16px;
+   opacity: 0.5;
+
+ }
+
+ .footer .social a:hover {
+   opacity: 0.9;
+ }
+
+
+.footer ul {
+   margin-top: 0;
+   padding: 0;
+   list-style: none;
+   font-size: 18px;
+   line-height: 1.6;
+   margin-bottom: 0;
+   text-align: center;
+
+}
+
+.footer ul li a {
+   text-decoration: none;
+   opacity: 0.9;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.footer ul li a:hover {
+   opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+
  /* Responsive desing */
 
  @media(max-width: 992px) {
