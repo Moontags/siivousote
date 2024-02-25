@@ -141,7 +141,7 @@ header{
 
  /* Hero */ 
  main {
-    height: calc(56vh - 10px);
+    height: calc(52vh);
     display: flex;
     padding-top: 24.8rem;
     flex-direction: column;
