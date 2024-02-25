@@ -8,14 +8,16 @@
     <title>Siivousote</title>
 </head>
 <body>
+
+   
     <header>
       <div class="navbar">
         <div class="logo"><a href="#">Siivousote</a></div>
         <ul class="links">
-            <li><a href="hero">Koti</a></li>
-            <li><a href="about">Yritys</a></li>
-            <li><a href="services">Palvelut</a></li>
-            <li><a href="contact">Yhteistiedot</a></li>
+          <li><a href="index.html">Koti</a></li>
+          <li><a href="palvelut.html">Palvelut</a></li>
+            <li><a href="hinnasto.html">Hinnasto</a></li>
+            <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
         </ul>
         <a href="#" class="action_btn">Aloita</a>
         <div class="toggle_btn">
@@ -23,20 +25,42 @@
         </div>
       </div>
       <div class="dropdown_menu">
+        <li><a href="index.html">Koti</a></li>
+        <li><a href="palvelut.html">Palvelut</a></li>
+        <li><a href="hinnasto.html">Hinnasto</a></li>
+        <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
+        <li><a href="#" class="action_btn">Aloita</a></li>
+      </div>
+    </header>
+   
+    <main>
+      <h1>Ota yhteyttä tai istu siellä roskakasan keskellä</h1>
+
+      <h2>posti@siivousote.com</h2>
+      <h3>050050000550</h3>
+     
+    </main>
+    <section class="footer">
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-snapchat"></i></a>
+        <p class="copyright">
+          Siivouosote @ 2024
+        </p>
+       
+      </div>
+      <!-- <ul class="list">
         <li><a href="hero">Koti</a></li>
         <li><a href="about">Yritys</a></li>
         <li><a href="services">Palvelut</a></li>
         <li><a href="contact">Yhteistiedot</a></li>
-        <li><a href="#" class="action_btn">Aloita</a></li>
-      </div>
-    </header>
+       
+      </ul> -->
+    
+    </section>
 
-    <main>
-        <section id="hero">
-          <h1>Huippu siistiä!</h1>
-          <p>Laadukas ja helppo siivouspalvelu yrityksille, yhteisöille ja koteihin </p>
-        </section>
-    </main>
     <script>
         const toggleBtn = document.querySelector('.toggle_btn')
         const toggleBtnIcon = document.querySelector('.toggle_btn i')
@@ -51,5 +75,6 @@
             : 'fa-solid fa-bars'
         }
     </script>
+  
 </body>
 </html>
