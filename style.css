@@ -7,10 +7,12 @@
 
 
 body,html{
-    margin: 0;
-    background-image: url('kuvat/pexels-photo-6195274.webp');
+   
+    background-image: url('kuvat/modern-minimalist-bathroom-3115450_640.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+   
 }
 
 li {
@@ -21,13 +23,12 @@ li {
 a {
     text-decoration: none;
     letter-spacing: 0.18rem;
-    color:#ccddfa;
-    text-shadow: 1px 1px 2px #000;
+    color:#fff;
     font-size: 1.6rem;
 }
 
 a:hover {
-   color: rgb(43, 44, 43);
+   color: rgb(247, 251, 247);
 }
 
 /* Header */
@@ -50,10 +51,9 @@ header{
  }
 
  .navbar .logo a {
-   font-size: 2.0rem;
+   font-size: 2.6rem;
    font-weight: bolder;
-   color:#ccddfa;
-   text-shadow: 1px 1px 2px #000;
+   color:#fff;
  }
 
  .navbar .links {
@@ -71,9 +71,8 @@ header{
 
  p {
    font-size: 1.8rem;
-   color:#ccddfa;
+   color:#e7eef9;
    letter-spacing: 0.1rem;
-   text-shadow: 1px 1px 2px #000;
    display: flex;
    justify-content: center;
    padding-top: 2.2rem
@@ -95,7 +94,7 @@ header{
 
  .action_btn:hover {
     scale: 1.05;
-    color:#ccddfa;
+    color:#0d0d0d;
    
  }
 
@@ -139,8 +138,8 @@ header{
  }
 
  /* Hero */ 
- section#hero {
-    height: calc(100vh - 60px);
+ main {
+    height: calc(72vh - 20px);
     display: flex;
     padding-top: 10.8rem;
     flex-direction: column;
@@ -151,6 +150,9 @@ header{
 
  #hero h1 {
     font-size: 3rem;
+    background-color: rgba(16, 15, 15, 0.3);
+    padding: 4px;
+    border-radius: 4px;
     color:#ccddfa;
     letter-spacing: 0.1rem;
     text-shadow: 1px 1px 2px #000;
@@ -162,13 +164,14 @@ header{
 
  }
 
+ /* main */
+
+
  /* Footer */
 
  .footer {
-  
    padding: 2.2rem 0;
-   background-color: #fff;
-   opacity: 0.8;
+  
  }
 
  .footer .social {
@@ -178,14 +181,13 @@ header{
 
  .footer .social a {
    font-size: 1.2rem;
-   color: inherit; 
    width: 1.2rem;
    height: 1.2rem;
    line-height: 1.2rem;
    display: inline-block;
    text-align: center;
    margin: 0 1rem;
-   opacity: 0.5;
+  
 
  }
 
