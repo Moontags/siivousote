@@ -24,6 +24,7 @@ a {
     text-decoration: none;
     letter-spacing: 0.18rem;
     color:#fff;
+    text-shadow: 1px 1px 2px #000;
     font-size: 1.6rem;
 }
 
@@ -71,6 +72,7 @@ header{
 
  p {
    font-size: 1.8rem;
+   text-shadow: 1px 1px 2px #000;
    color:#e7eef9;
    letter-spacing: 0.1rem;
    display: flex;
@@ -139,21 +141,21 @@ header{
 
  /* Hero */ 
  main {
-    height: calc(72vh - 20px);
+    height: calc(56vh - 10px);
     display: flex;
     padding-top: 10.8rem;
+    padding-bottom: 12rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff
  }
 
- #hero h1 {
-    font-size: 3rem;
-    background-color: rgba(16, 15, 15, 0.3);
-    padding: 4px;
+    h1 {
+    font-size: 2rem;
+    padding-bottom: 9px;
     border-radius: 4px;
-    color:#ccddfa;
+    color:#fff;
     letter-spacing: 0.1rem;
     text-shadow: 1px 1px 2px #000;
     display: flex;
@@ -164,6 +166,11 @@ header{
 
  }
 
+ h2 {
+   text-shadow: 1px 1px 2px #000;
+   text-align: center;
+ }
+
  /* main */
 
 
@@ -171,6 +178,7 @@ header{
 
  .footer {
    padding: 2.2rem 0;
+   
   
  }
 
