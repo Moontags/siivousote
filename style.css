@@ -12,7 +12,7 @@ body,html{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+    height: auto;
 }
 
 li {
@@ -141,13 +141,16 @@ header{
 
  /* Hero */ 
  main {
-    height: calc(52vh);
+    position: relative;
+    min-height: calc(100vh - 3.6rem);
     display: flex;
-    padding-top: 24.8rem;
+    padding-top: 8rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff
+    color: #fff;
+   
+    
  }
 
     h1 {
@@ -175,15 +178,23 @@ header{
 
  /* Footer */
 
- .footer {
-   margin-top: 6.5rem;
+
+
+.footer {
+   
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 6rem;           
+   overflow: hidden;
+ }
    
   
- }
+ 
 
  .footer .social {
    text-align: center;
-   padding-bottom: 1.4rem;
+   
  }
 
  .footer .social a {
@@ -207,7 +218,7 @@ header{
    margin-top: 0;
    padding: 0;
    list-style: none;
-   font-size: 1.1rem;
+   font-size: 1.2rem;
    line-height: 1.6;
    margin-bottom: 0;
    text-align: center;
@@ -229,9 +240,9 @@ header{
 }
 
 .footer .copyright {
-  margin-top: 1rem;
+ 
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 
