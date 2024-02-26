@@ -8,31 +8,30 @@
     <title>Siivousote</title>
 </head>
 <body>
-
-   
-    <header>
-      <div class="navbar">
-        <div class="logo"><a href="#">Siivousote</a></div>
-        <ul class="links">
-          <li><a href="index.html">Koti</a></li>
-          <li><a href="palvelut.html">Palvelut</a></li>
-            <li><a href="hinnasto.html">Hinnasto</a></li>
-            <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
-        </ul>
-        <a href="#" class="action_btn">Aloita</a>
-        <div class="toggle_btn">
-        <i class="fa-solid fa-bars"></i>
-        </div>
-      </div>
-      <div class="dropdown_menu">
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="#">Siivousote</a></div>
+      <ul class="links">
         <li><a href="index.html">Koti</a></li>
         <li><a href="palvelut.html">Palvelut</a></li>
         <li><a href="hinnasto.html">Hinnasto</a></li>
         <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
-        <li><a href="#" class="action_btn">Aloita</a></li>
+      </ul>
+      <a href="#" class="action_btn">Aloita</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
       </div>
-    </header>
-   
+    </div>
+      <div class="dropdown_menu">
+        
+          <li><a href="index.html">Koti</a></li>
+          <li><a href="palvelut.html">Palvelut</a></li>
+          <li><a href="hinnasto.html">Hinnasto</a></li>
+          <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
+          <a href="#" class="action_btn">Aloita</a>
+    
+    </div>
+  </header>
     <main>
       <h1>Puhdasta</h1>
 
@@ -54,19 +53,15 @@
     </section>
 
     <script>
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropDownMenu = document.querySelector('.dropdown_menu')
+      const toggleBtn = document.querySelector('.toggle_btn')
+      const toggleBtnIcon = document.querySelector('.toggle_btn i')
+      const dropDownMenu = document.querySelector('.dropdown_menu')
 
-        toggleBtn.onclick = function () {
-            dropDownMenu.classList.toggle('open')
-            const isOpen = dropDownMenu.classList.contains('open')
-
-            toggleBtnIcon.classList = isOpen    
-            ? 'fa-solid fa-xmark'
-            : 'fa-solid fa-bars'
-        }
-    </script>
-  
+      toggleBtn.onclick = function () {
+  dropDownMenu.classList.toggle('open')
+  const isOpen = dropDownMenu.classList.contains('open')
+  toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+}
+  </script>
 </body>
 </html>

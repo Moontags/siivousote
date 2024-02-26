@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 
-body,html{
+body {
    
     background-image: url('kuvat/modern-minimalist-bathroom-3115450_640.jpg');
     background-size: cover;
@@ -53,12 +53,11 @@ header{
 
  .navbar .logo a {
    font-size: 2.6rem;
-   font-weight: bolder;
    color:#fff;
  }
 
  .navbar .links {
-    font-size: 1.4rem;
+    
     display: flex;
     gap: 2rem;
  }
@@ -83,7 +82,7 @@ header{
 
  .action_btn {
     background-color: rgb(235, 239, 240);
-    color: #030303;
+    color: rgb(211, 215, 211);
     letter-spacing: 0.18rem;
     padding: 0.5rem 1rem;
     border: none;
@@ -91,12 +90,12 @@ header{
     border-radius: 1.2rem;
     font-size: 1.2rem;
     cursor: pointer;
-    transition: scale 0.4 ease;
+    transition: scale 0.6 ease;
  }
 
  .action_btn:hover {
     scale: 1.05;
-    color:#0d0d0d;
+    color:#fff;
    
  }
 
@@ -112,17 +111,18 @@ header{
     right: 2rem;
     top: 60px;
     height: 0;
-    width: 16.8rem;
+    width: 300px;
     background: rgba (255, 255, 255, 0.3);
     backdrop-filter: blur(1rem);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; 
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
  }
 
+
  .dropdown_menu.open {
     height: 17.8rem;
-    
+    visibility: visible;
 
  }
 
@@ -173,8 +173,6 @@ header{
    text-align: center;
    padding-top: 10px;
  }
-
- /* main */
 
 
  /* Footer */
@@ -250,7 +248,7 @@ header{
 
  /* Responsive desing */
 
- @media(max-width: 992px) {
+  @media(max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
@@ -268,4 +266,6 @@ header{
         left: 2rem;
         width: unset;
     }
- }
+ }  
+ 
+  
