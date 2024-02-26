@@ -17,6 +17,7 @@
     background-image: url('https://cdn.pixabay.com/photo/2023/05/24/10/17/ai-generated-8014521_640.jpg');
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .contact .content {
