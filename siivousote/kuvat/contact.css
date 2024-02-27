@@ -32,6 +32,13 @@
     color: #060000;
 }
 
+.contact .content h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #060000;
+}
+
 .contact .content p {
    
    font-weight: 300;
@@ -88,7 +95,8 @@
     width: 40%;
     padding: 40px;
     background: #fff;
-    opacity: 0.5;
+    opacity: 0.6;
+   
     
 }
 
@@ -97,6 +105,7 @@
     color: #353737;
     font-weight: 500;
 }
+
 
 .contactForm  .inputBox {
   position: relative;
