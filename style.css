@@ -23,7 +23,7 @@ li {
 a {
     text-decoration: none;
     letter-spacing: 0.18rem;
-    color:#fff;
+    color:  #c5f7f7;
     text-shadow: 1px 1px 2px #000;
     font-size: 1.6rem;
 }
@@ -49,6 +49,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
  }
 
  .navbar .logo a {
@@ -57,7 +58,7 @@ header{
  }
 
  .navbar .links {
-    
+   
     display: flex;
     gap: 2rem;
  }
@@ -72,7 +73,7 @@ header{
  p {
    font-size: 1.8rem;
    text-shadow: 1px 1px 2px #000;
-   color:#e7eef9;
+   color: #c5f7f7;
    letter-spacing: 0.1rem;
    display: flex;
    justify-content: center;
@@ -159,7 +160,7 @@ header{
     font-size: 2rem;
     padding-bottom: 14px;
     border-radius: 4px;
-    color:#fff;
+    color:  #c5f7f7;
     letter-spacing: 0.1rem;
     text-shadow: 1px 1px 2px #000;
     display: flex;
@@ -174,6 +175,7 @@ header{
    text-shadow: 1px 1px 2px #000;
    text-align: center;
    padding-top: 10px;
+   color:  #c5f7f7
  }
 
  h3 {
