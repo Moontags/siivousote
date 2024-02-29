@@ -23,8 +23,8 @@ li {
 a {
     text-decoration: none;
     letter-spacing: 0.18rem;
-    color:  #c5f7f7;
-    text-shadow: 1px 1px 2px #000;
+    color: #3966f9;
+    text-shadow: 1px 1px 1px #000;
     font-size: 1.6rem;
 }
 
@@ -54,7 +54,7 @@ header{
 
  .navbar .logo a {
    font-size: 2.6rem;
-   color: #c5f7f7;
+   color: #3966f9;
  }
 
  .navbar .links {
@@ -72,8 +72,8 @@ header{
 
  p {
    font-size: 1.8rem;
-   text-shadow: 1px 1px 2px #000;
-   color: #c5f7f7;
+   text-shadow: 1px 1px 1px #000;
+   color:  #3966f9;
    letter-spacing: 0.1rem;
    display: flex;
    justify-content: center;
@@ -160,9 +160,9 @@ header{
     font-size: 2rem;
     padding-bottom: 14px;
     border-radius: 4px;
-    color:  #c5f7f7;
+    color:  #3966f9 ;
     letter-spacing: 0.1rem;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 1px #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -172,15 +172,15 @@ header{
  }
 
  h2 {
-   text-shadow: 1px 1px 2px #000;
+   text-shadow: 1px 1px 1px #000;
    text-align: center;
    padding-top: 10px;
-   color:  #c5f7f7
+   color: #3966f9;
  }
 
  h3 {
    margin-top: 10px;
-   text-shadow: 1px 1px 2px #000;
+   text-shadow: 1px 1px 1px #000;
  }
 
  /* Footer */
