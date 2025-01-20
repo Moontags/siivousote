@@ -25,8 +25,10 @@ Alatunnisteessa on yrityksen sosiaalisen median linkit:
 - Facebook
 - Twitter
 - Snapchat
+  
+ [Siivousote](https://www.siivousote.fi) palvelee sekä yksityishenkilöitä että yrityksiä.
 
-Yrityksen yhteystiedot sähköpostiosoitteella **siivousote@gmail.com**.
+
 
 ### 4. JavaScript
 
