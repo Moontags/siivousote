@@ -26,7 +26,7 @@ Alatunnisteessa on yrityksen sosiaalisen median linkit:
 - Twitter
 - Snapchat
   
- [Siivousote](https://www.siivousote.fi) palvelee sekä yksityishenkilöitä että yrityksiä.
+ [Siivousote](https://moontags.github.io/siivousote/) palvelee sekä yksityishenkilöitä että yrityksiä.
 
 
 
